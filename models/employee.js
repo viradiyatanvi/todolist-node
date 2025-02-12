@@ -9,43 +9,43 @@ const multer=require('multer');
 const EmployeeSchema=mongoose.Schema({
     title:{
         type:String,
-        require:true
+        required:true
     },
     author:{
         type:String,
-        require:true
+        required:true
     },
     description:{
         type:String,
-        require:true
+        required:true
     },
     genre:{
         type:Array,
-        require:true
+        required:true
     },
     price:{
         type:Number,
-        require:true
+        required:true
     },
     stock:{
         type:Number,
-        require:true
+        required:true
     },
     publishedate:{
         type:String,
-        require:true
+        required:true
     },
     publisher:{
         type:String,
-        require:true
+        required:true
     },
     image:{
         type:String,
-        require:true
+        required:true
     },
     rating:{
         type:String,
-        require:true
+        required:true
     },
 })
 
